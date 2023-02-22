@@ -14,14 +14,42 @@
         android:theme="@style/Theme.Minggu2"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
-            android:exported="true">
+            android:name=".linearlayout"
+            android:exported="false" />
+        <activity
+            android:name=".mainmenu"
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value=""/>
         </activity>
+        <activity
+            android:name=".horizontalscrooll"
+            android:exported="false" />
+        <activity
+            android:name=".vertikalscroll"
+            android:exported="false" />
+        <activity
+            android:name=".materialdesign"
+            android:exported="false" />
+        <activity
+            android:name=".tabellayout"
+            android:exported="false" />
+        <activity
+            android:name=".framelayout"
+            android:exported="false" />
+        <activity
+            android:name=".customize"
+            android:exported="false"
+            android:label="Constrain Layout" />
+        <activity
+            android:name=".relativelayout"
+            android:exported="false" />
     </application>
 
 </manifest>
